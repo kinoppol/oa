@@ -9,9 +9,9 @@ if (!file_exists($update_dir)) {
     mkdir($update_dir, 0777, true);
 }
 
-$url = "https://github.com/kinoppol/ric/archive/refs/heads/main.zip"; #<--
+$url = "https://github.com/kinoppol/oa/archive/refs/heads/main.zip"; #<--
 $zip_file = $update_dir."temp.zip"; #<--
-$in_zip_dirname='ric-main/'; #<--
+$in_zip_dirname='oa-main/'; #<--
 
 $zip_resource = fopen($zip_file, "w");
 
@@ -48,4 +48,4 @@ if($zip->open($zip_file) != "true")
 $zip->extractSubdirTo($extractPath,$in_zip_dirname);
 $zip->close();
 
-print '<a href="./index.php">กลับหน้าหลัก</a>';
+print '<a href="./">กลับหน้าหลัก</a>';
