@@ -7,14 +7,14 @@ $template_path='template/courses/';
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>RIC</title>
+    <title><?php print $title; ?></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
     <!--<link rel="shortcut icon" type="image/x-icon" href="<?php print site_url($template_path,true); ?>assets/img/favicon.ico">-->
     
-  <link href="./images/ric_logo.png" rel="cvm-2023-icon"> 
-  <link href="./images/ric_logo.png" rel="icon">
+  <link href="./images/oa_logo+white.png" rel="cvm-2023-icon"> 
+  <link href="./images/oa_logo+white.png" rel="icon">
     <link href='https://fonts.googleapis.com/css?family=Kanit:400,300&subset=thai,latin' rel='stylesheet' type='text/css'>	
 
     <!-- CSS here -->
@@ -46,7 +46,7 @@ $template_path='template/courses/';
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="./images/ric_logo.png" alt="">
+                    <img src="./template/courses/assets/img/logo/loder.png" alt="">
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@ $template_path='template/courses/';
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo" align="center">
-                                    <a href="https://cvm.vec.go.th/" target="_blank"><img src="./images/ric_logo.png" width="60" alt=""> <br>คลังปัญญาธุรกิจค้าปลีก</a>
+                                    <a href="https://cvm.vec.go.th/" target="_blank"><img src="./images/oa_logo+white.png" width="60" alt=""> <br>ระบบประเมินออนไลน์</a>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10">
@@ -72,9 +72,8 @@ $template_path='template/courses/';
                                         <nav>
                                             <ul id="navigation">                                                                                          
                                                 <li class="active" ><a href="?p=main">หน้าหลัก</a></li>
-                                                <li><a href="courses.html">หลักสูตร</a></li>
+                                                <li><a href="courses.html">การประเมิน</a></li>
                                                 <li><a href="about.html">เกี่ยวกับ</a></li>
-                                                <li><a href="contact.html">ติดต่อเรา</a></li>
                                                 <!-- Button -->
                                                 <li class="button-header margin-left "><a href="?p=register" class="btn">ลงทะเบียน</a></li>
                                                 <li class="button-header"><a href="?p=login" class="btn btn3">เข้าสู่ระบบ</a></li>
@@ -104,9 +103,9 @@ $template_path='template/courses/';
                         <div class="row">
                             <div class="col-xl-6 col-lg-7 col-md-12">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInLeft" data-delay="0.2s">คลังปัญญา<br>ธุรกิจกิจค้าปลีก</h1>
-                                    <p data-animation="fadeInLeft" data-delay="0.4s">Retail business intelligence center.</p>
-                                    <a href="?p=register" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">ลงทะเบียนเรียนฟรี</a>
+                                    <h1 data-animation="fadeInLeft" data-delay="0.2s">ระบบประเมินออนไลน์<br>Online Assessment.</h1>
+                                    <p data-animation="fadeInLeft" data-delay="0.4s">ลดการใช้กระดาษ รองรับการประเมินทางไกล</p>
+                                    <a href="?p=register" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">ลงทะเบียนฟรี</a>
                                 </div>
                             </div>
                         </div>
@@ -307,7 +306,7 @@ $template_path='template/courses/';
                             <div class="single-footer-caption mb-30">
                                 <!-- logo -->
                                 <div class="footer-logo mb-25">
-                                    <a href="index.html"><img src="./images/ric_logo.png" width="60" alt=""></a>
+                                    <a href="index.html"><img src="./images/oa_logo+white.png" width="60" alt=""></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">

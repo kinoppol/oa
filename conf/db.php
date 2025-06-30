@@ -2,7 +2,7 @@
 $db_host='localhost';
 $db_user='root';
 $db_pass='';
-$db_database='vos';
+$db_database='oa';
 
 $db = new mysqli($db_host,$db_user,$db_pass,$db_database);
 
